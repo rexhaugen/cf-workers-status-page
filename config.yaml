@@ -1,8 +1,8 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack & Discord messages
+  url: 'https://status.rexford.workers.dev' # used for Slack & Discord messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: ingvaldphotography.com # unique identifier
-    name: ingvaldphotography.com
+    name: 'ingvaldphotography.com'
     description: 'Ingvald Photography' # default=empty
     url: 'https://ingvaldphotography.com/' # URL to fetch
     method: GET # default=GET
@@ -25,18 +25,18 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: jaclyn.rexford.me
-    name: jaclyn.rexford.me
+    name: 'jaclyn.rexford.me'
     description: 'Wedding Page'
-    url: 'https://jaclyn.rexford.me'
+    url: 'https://jaclyn.rexford.me/'
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: adventurecharging.info
-    name: adventurecharging.info
+    name: 'adventurecharging.info'
     description: 'Adventure Charging Network'
-    url: 'https://adventurecharging.info'
+    url: 'https://adventurecharging.info/'
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
