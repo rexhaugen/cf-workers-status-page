@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status.rexford.workers.dev' # used for Slack & Discord messages
+  url: 'https://status-production.rexford.workers.dev' # used for Slack & Discord messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
